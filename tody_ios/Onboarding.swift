@@ -38,7 +38,7 @@ struct OnboardingView: View {
     ]
     
     func toggleHasNotDoneOnboarding() -> Void {
-        navigator.next(linkItem: .init(path: "welcome"), isAnimated: true)
+        navigator.replace(linkItem: .init(path: "welcome"), isAnimated: true)
     }
     
     let navigator : RootNavigatorType

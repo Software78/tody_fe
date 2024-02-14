@@ -17,8 +17,9 @@ struct RoundedButton : View {
             ZStack{
                 RoundedRectangle(cornerRadius: 8)
                     .foregroundColor(.brandPrimaryDefault)
-                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 56)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    .frame(height: 56)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
                 Text(text)
                     .foregroundColor(.white)
             }
@@ -39,7 +40,7 @@ struct RoundedButtonWithIcon : View {
                 RoundedRectangle(cornerRadius: 8)
                     .foregroundColor(.brandPrimaryDefault)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 56)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
                 HStack{
                     Image(icon)
                     Text(text)
@@ -62,7 +63,7 @@ struct RoundedSocailLoginButton : View {
                 RoundedRectangle(cornerRadius: 8)
                     .foregroundColor(.neutralBackground)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 56)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
                 HStack{
                     Image(icon)
                     Text(text)

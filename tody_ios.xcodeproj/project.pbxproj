@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A23BD982B79EDBE00893FD3 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23BD972B79EDBE00893FD3 /* Welcome.swift */; };
+		5A23BD982B79EDBE00893FD3 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23BD972B79EDBE00893FD3 /* Onboarding.swift */; };
+		5A23BD9B2B79FC6700893FD3 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23BD9A2B79FC6700893FD3 /* Typography.swift */; };
+		5A23BD9D2B79FC7400893FD3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23BD9C2B79FC7400893FD3 /* Colors.swift */; };
+		5A23BD9F2B7A0B6F00893FD3 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23BD9E2B7A0B6F00893FD3 /* Buttons.swift */; };
+		5A23BDA12B7A589600893FD3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A23BDA02B7A589600893FD3 /* Login.swift */; };
 		5A6329AA2B79E5F40010D347 /* tody_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6329A92B79E5F40010D347 /* tody_iosApp.swift */; };
 		5A6329AC2B79E5F40010D347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6329AB2B79E5F40010D347 /* ContentView.swift */; };
 		5A6329AE2B79E5F60010D347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6329AD2B79E5F60010D347 /* Assets.xcassets */; };
 		5A6329B12B79E5F60010D347 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6329B02B79E5F60010D347 /* Preview Assets.xcassets */; };
+		5A7B897A2B7B8F81007DD906 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B89792B7B8F81007DD906 /* Welcome.swift */; };
+		5A7B897D2B7B9998007DD906 /* LinkNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = 5A7B897C2B7B9998007DD906 /* LinkNavigator */; };
+		5A7B89812B7B99E2007DD906 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B89802B7B99E2007DD906 /* AppDependency.swift */; };
+		5A7B89832B7B9A17007DD906 /* AppRouterGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B89822B7B9A17007DD906 /* AppRouterGroup.swift */; };
+		5A7B89852B7B9A79007DD906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B89842B7B9A79007DD906 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A23BD972B79EDBE00893FD3 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		5A23BD972B79EDBE00893FD3 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		5A23BD9A2B79FC6700893FD3 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		5A23BD9C2B79FC7400893FD3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5A23BD9E2B7A0B6F00893FD3 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		5A23BDA02B7A589600893FD3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		5A6329A62B79E5F40010D347 /* tody_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tody_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6329A92B79E5F40010D347 /* tody_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tody_iosApp.swift; sourceTree = "<group>"; };
 		5A6329AB2B79E5F40010D347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A6329AD2B79E5F60010D347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A6329B02B79E5F60010D347 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A6329BA2B79EB490010D347 /* tody-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "tody-ios-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5A7B89792B7B8F81007DD906 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		5A7B89802B7B99E2007DD906 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		5A7B89822B7B9A17007DD906 /* AppRouterGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterGroup.swift; sourceTree = "<group>"; };
+		5A7B89842B7B9A79007DD906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +46,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7B897D2B7B9998007DD906 /* LinkNavigator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A23BD992B79FC4800893FD3 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				5A23BD9A2B79FC6700893FD3 /* Typography.swift */,
+				5A23BD9C2B79FC7400893FD3 /* Colors.swift */,
+				5A23BD9E2B7A0B6F00893FD3 /* Buttons.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
 		5A63299D2B79E5F40010D347 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +82,8 @@
 		5A6329A82B79E5F40010D347 /* tody_ios */ = {
 			isa = PBXGroup;
 			children = (
+				5A7B897E2B7B99BD007DD906 /* Config */,
+				5A23BD992B79FC4800893FD3 /* styles */,
 				5A6329BA2B79EB490010D347 /* tody-ios-Info.plist */,
 				5A6329B72B79E6D90010D347 /* onboarding */,
 				5A6329A92B79E5F40010D347 /* tody_iosApp.swift */,
@@ -75,9 +105,29 @@
 		5A6329B72B79E6D90010D347 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				5A23BD972B79EDBE00893FD3 /* Welcome.swift */,
+				5A23BD972B79EDBE00893FD3 /* Onboarding.swift */,
+				5A23BDA02B7A589600893FD3 /* Login.swift */,
+				5A7B89792B7B8F81007DD906 /* Welcome.swift */,
 			);
 			name = onboarding;
+			sourceTree = "<group>";
+		};
+		5A7B897E2B7B99BD007DD906 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B897F2B7B99C3007DD906 /* Navigation */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5A7B897F2B7B99C3007DD906 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B89802B7B99E2007DD906 /* AppDependency.swift */,
+				5A7B89822B7B9A17007DD906 /* AppRouterGroup.swift */,
+				5A7B89842B7B9A79007DD906 /* AppDelegate.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +146,9 @@
 			dependencies = (
 			);
 			name = tody_ios;
+			packageProductDependencies = (
+				5A7B897C2B7B9998007DD906 /* LinkNavigator */,
+			);
 			productName = tody_ios;
 			productReference = 5A6329A62B79E5F40010D347 /* tody_ios.app */;
 			productType = "com.apple.product-type.application";
@@ -124,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 5A63299D2B79E5F40010D347;
+			packageReferences = (
+				5A7B897B2B7B9998007DD906 /* XCRemoteSwiftPackageReference "LinkNavigator" */,
+			);
 			productRefGroup = 5A6329A72B79E5F40010D347 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,8 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7B89852B7B9A79007DD906 /* AppDelegate.swift in Sources */,
+				5A23BDA12B7A589600893FD3 /* Login.swift in Sources */,
 				5A6329AC2B79E5F40010D347 /* ContentView.swift in Sources */,
-				5A23BD982B79EDBE00893FD3 /* Welcome.swift in Sources */,
+				5A7B89832B7B9A17007DD906 /* AppRouterGroup.swift in Sources */,
+				5A23BD9D2B79FC7400893FD3 /* Colors.swift in Sources */,
+				5A23BD982B79EDBE00893FD3 /* Onboarding.swift in Sources */,
+				5A7B897A2B7B8F81007DD906 /* Welcome.swift in Sources */,
+				5A23BD9F2B7A0B6F00893FD3 /* Buttons.swift in Sources */,
+				5A7B89812B7B99E2007DD906 /* AppDependency.swift in Sources */,
+				5A23BD9B2B79FC6700893FD3 /* Typography.swift in Sources */,
 				5A6329AA2B79E5F40010D347 /* tody_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +358,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +388,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A7B897B2B7B9998007DD906 /* XCRemoteSwiftPackageReference "LinkNavigator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/forXifLess/LinkNavigator.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A7B897C2B7B9998007DD906 /* LinkNavigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A7B897B2B7B9998007DD906 /* XCRemoteSwiftPackageReference "LinkNavigator" */;
+			productName = LinkNavigator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A63299E2B79E5F40010D347 /* Project object */;
 }

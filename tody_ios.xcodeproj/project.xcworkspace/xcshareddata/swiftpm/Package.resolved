@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "linknavigator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/forXifLess/LinkNavigator.git",
+      "state" : {
+        "revision" : "ace5b0b4f926d5b822282a7967e1532e162bca2a",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "urlencodedform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/interactord/URLEncodedForm",
+      "state" : {
+        "revision" : "5f51aa13d41b26fc8833cd040df3a3101768bb64",
+        "version" : "1.0.8"
+      }
+    }
+  ],
+  "version" : 2
+}
